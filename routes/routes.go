@@ -24,4 +24,5 @@ func SetupRoutes(r *gin.Engine) {
 		})
 	})
 	r.Static("/static", "./static")
+
 }
